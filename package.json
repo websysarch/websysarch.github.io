@@ -1,0 +1,26 @@
+{
+  "name": "websysarch.github.io",
+  "version": "0.0.0",
+  "description": "Github Site",
+  "main": "index.js",
+  "scripts": {
+    "format:fix": "prettier . --write --ignore-unknown",
+    "format:check": "prettier . --check --ignore-unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websysarch/websysarch.github.io.git"
+  },
+  "keywords": [],
+  "author": "WebSysArch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websysarch/websysarch.github.io/issues"
+  },
+  "homepage": "https://github.com/websysarch/websysarch.github.io#readme",
+  "devDependencies": {
+    "@websysarch/prettier-config": "^1.0.0",
+    "prettier": "^2.6.2"
+  },
+  "prettier": "@websysarch/prettier-config"
+}
